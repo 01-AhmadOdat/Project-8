@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Project_8_MVC_Batool.Cours>
+
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_DashBoardUser.cshtml";
+}
+
+
+<br />
+
+<div style="margin:50px 0 ;text-align:center">
+    <h2>
+        <span style="color: green;text-align:center">Your Courses</span>   <br />
+    </h2>
+</div>
+<br />
+<br />
+@Html.Action("courseScudule_Block")
